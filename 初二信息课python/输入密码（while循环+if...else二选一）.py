@@ -1,5 +1,5 @@
-print('注册账号:')
-input('可填手机号或邮箱(甚至可以瞎填):')
+print('注册账号（可填手机号或邮箱或者瞎填):')
+input()
 print('possward（密码）：')
 a=input(' ')
 while True:
