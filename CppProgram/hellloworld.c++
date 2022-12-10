@@ -1,16 +1,9 @@
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
-
+#include <stdio.h>
+#include <stdlib.h>
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
-
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    printf("Hello World!\n");
+    printf("你好世界！\n");
+    system("pause");    // 防止运行后自动退出，需头文件stdlib.h
+    return 0;
 }
