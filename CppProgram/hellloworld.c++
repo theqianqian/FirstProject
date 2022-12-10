@@ -3,7 +3,7 @@
 int main()
 {
     printf("Hello World!\n");
-    printf("你好世界！\n");
-    system("pause");    // 防止运行后自动退出，需头文件stdlib.h
+    printf("������磡\n");
+    system("pause");    // ��ֹ���к��Զ��˳�����ͷ�ļ�stdlib.h
     return 0;
 }
