@@ -8,7 +8,8 @@ int add(int a, int b)
 int main()
 {
     int result;
-    result = add(2, 3);
+    result = add(4, 5);
     printf("%d", result);
+    system("pause");    // 防止运行后自动退出，需头文件stdlib.h
     return 0;
 }
