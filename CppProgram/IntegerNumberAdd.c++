@@ -1,15 +1,17 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 #include <stdlib.h>
-int add(int a, int b)
-{
-    return a + b;
-}
-
 int main()
 {
-    int result;
-    result = add(4, 5);
-    printf("%d", result);
-    system("pause");    // 防止运行后自动退出，需头文件stdlib.h
+    int result,jian,a,b;
+    cout<<"a的值为：" ;
+    cin>>a ;
+    cout<<"b的值为：" ;
+    cin>>b ;
+    result = a + b ;
+    jian = a - b ;
+    cout<<"a+b="<<result<<end1 ;
+    cout<<"a-b="<<jian<<end1 ;
+    system("pause");
     return 0;
 }
