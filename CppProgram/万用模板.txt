@@ -1,0 +1,11 @@
+#include <iostream>
+using nammespace std;
+int main()
+{
+    systeam("pause");
+    return 0;
+}
+
+
+
+#include <stdio>

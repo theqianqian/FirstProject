@@ -32,7 +32,14 @@ int main()
     }
     else
     {
-        cout << "不及格" << endl;
+        if (score < 0)
+        {
+            cout << "小黑子没有树枝" << endl;
+        }
+        else
+        {
+            cout << "不及格" << endl;
+        }
     }
     system("pause");
     return 0;
