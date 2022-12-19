@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
-    int a;
+    int year;
     cout << "输入年份：" << endl;
-    cin >> a;
-    bool year = (a % 4 == 0 && a % 100 != 0) || (a % 400 == 0);
-    if (year)
+    cin >> year;
+    bool LeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+    if (LeapYear)
     {
-        cout << a << "年是闰年" << endl;
+        cout << year << "年是闰年" << endl;
     }
     else
     {
-        cout << a << "年不是闰年" << endl;
+        cout << year << "年不是闰年" << endl;
     }
     system("pause");
     return 0;
