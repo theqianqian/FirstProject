@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int score = 0;
-    cout << "本片评分（1~10）：";
+    cout << "本片评分（1-10）：";
     cin >> score;
     switch (score)
     {
