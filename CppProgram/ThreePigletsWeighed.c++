@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int pig_1, pig_2, pig_3;
+    int pig_1, pig_2, pig_3=0;
     cout << "pig1质量：";
     cin >> pig_1;
     cout << "pig2质量：";
