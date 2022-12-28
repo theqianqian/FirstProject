@@ -15,9 +15,5 @@ while True:
         print('你猜的小了亿点点')
     else:
         print('你猜的小了一点点')
-
-
-
 print("你干嘛~哎呦!!!下次荔枝点")
 print('游戏结束!!!')
-

@@ -2,7 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-int main(void)
+int main()
 {
     int num, count = 1;
     int begin = 1, end = 100;
@@ -10,7 +10,7 @@ int main(void)
     cin >> begin;
     cout << "请输入随机数范围终点：";
     cin >> end;
-    num = rand() % (end - begin + 1) + end - 1;
+    num = rand() % (end - begin + 1) + begin;
     if (num < begin)
     {
         num = begin + num;
@@ -33,8 +33,8 @@ int main(void)
         cout << "猜数字:";
         cin >> guest;
     }
-    cout << "历经" << count << "次," << endl;
-    cout << "你猜对了！" << endl;
+    cout << "\t历经" << count << "次," << endl;
+    cout << "\t你猜对了！" << endl;
     system("pause");
     return 0;
 }

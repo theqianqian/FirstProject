@@ -8,6 +8,7 @@ using namespace std;
 #include <ctime>
 #include <cstdlib>
 
+
 万能框架：
 1、
 using namespace std;
@@ -23,3 +24,12 @@ int main()
 取得(a,b]的随机整数：rand()%(b-a)+a+1；
 取得[a,b]的随机整数：rand()%(b-a+1)+a；
 取得0-1之间的浮点数：rand()/double(RAND_MAX).
+
+
+自定义范围数：
+int begin = 1, end = 100,num=0;
+cout << "请输入随机数范围起点：";
+cin >> begin;
+cout << "请输入随机数范围终点：";
+cin >> end;
+num = rand() % (end - begin + 1) + begin;
